@@ -95,7 +95,7 @@ header li {
 
 header a {
     display: block;
-    color: #3498db;
+    color: rgba(158, 29, 158, 0.8);
     padding: 10px
 }
 
@@ -107,7 +107,7 @@ header a:hover {
 }
 
 header a:focus {
-    color: #3498db;
+    color: rgba(117, 29, 117, 0.8);
     text-decoration: none
 }
 
@@ -130,7 +130,7 @@ header.sticky {
     position: fixed;
     right: 15px;
     top: 10px;
-    color: #3498db;
+    color: rgba(117, 29, 117, 0.8);
     font-size: 1.5em;
     z-index: 20;
     padding: 0 7px;
@@ -147,7 +147,7 @@ header.sticky {
     padding-right: 15px;
     padding-top: 10px;
     cursor: pointer;
-    color: #3498db
+    color: rgba(117, 29, 117, 0.8)
 }
 
 #mobile-menu-close span {
@@ -213,7 +213,7 @@ footer {
 }
 
 .social a:hover {
-    color: #3498db
+    color: rgba(117, 29, 117, 0.8)
 }
 
 .btn-rounded-white {
@@ -226,7 +226,7 @@ footer {
 }
 
 .btn-rounded-white:hover {
-    color: #3498db;
+    color: rgba(117, 29, 117, 0.8);
     background: #fff;
     text-decoration: none
 }
@@ -256,7 +256,7 @@ footer {
     left: 0;
     right: 0;
     margin: 0 auto;
-    background: #3498db
+    background: rgba(117, 29, 117, 0.8)
 }
 
 .background-alt {
@@ -312,7 +312,7 @@ footer {
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba(33, 125, 187, 0.8);
+    background: rgba(117, 29, 117, 0.8);
     z-index: 1
 }
 
@@ -395,7 +395,7 @@ footer {
     right: auto;
     height: 100%;
     width: 3px;
-    background: #3498db;
+    background: rgba(117, 29, 117, 0.8);
     z-index: 0
 }
 
@@ -404,8 +404,8 @@ footer {
     content: '';
     width: 3px;
     height: 40px;
-    background: #3498db;
-    background: linear-gradient(to bottom, #3498db, rgba(52, 152, 219, 0));
+    background: rgba(117, 29, 117, 0.8);
+    background: linear-gradient(to bottom, rgba(117, 29, 117, 0.8), rgba(52, 152, 219, 0));
     top: 100%;
     left: 303px
 }
@@ -451,7 +451,7 @@ footer {
     color: #fff;
     width: 50px;
     height: 50px;
-    background: #3498db;
+    background: rgba(117, 29, 117, 0.8);
     border-radius: 50%;
     float: left;
     z-index: 99;
@@ -581,12 +581,12 @@ footer {
 
 #skills {
     padding: 50px 15px;
-    background: #3498db;
+    background: rgba(117, 29, 117, 0.8);
     text-align: center
 }
 
 #skills h2 {
-    color: #e4e4ea;
+    color: #fff;
     margin-bottom: 50px
 }
 
@@ -602,22 +602,10 @@ footer {
     margin: 7px;
     padding: 5px 10px;
     color: #374054;
-    background: #e4e4ea;
+    background: #fff;
     list-style: none;
     cursor: default;
     font-size: 1.2em
-}
-
-#contact {
-    padding: 50px 15px;
-    background: #3498db;
-    text-align: center
-}
-
-#contact h2 {
-    margin: 0 0 15px 0;
-    color: #fff;
-    font-weight: 500
 }
 
 .optional-section {
